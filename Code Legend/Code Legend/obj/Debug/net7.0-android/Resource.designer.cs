@@ -27911,19 +27911,22 @@ namespace Code_Legend
 			public const int user = 2131165477;
 			
 			// aapt resource value: 0x7F070126
-			public const int variables_basic = 2131165478;
+			public const int variables = 2131165478;
 			
 			// aapt resource value: 0x7F070127
-			public const int version_img = 2131165479;
+			public const int variables_basic = 2131165479;
 			
 			// aapt resource value: 0x7F070128
-			public const int verticallayout = 2131165480;
+			public const int version_img = 2131165480;
 			
 			// aapt resource value: 0x7F070129
-			public const int views_img = 2131165481;
+			public const int verticallayout = 2131165481;
 			
 			// aapt resource value: 0x7F07012A
-			public const int while_basic = 2131165482;
+			public const int views_img = 2131165482;
+			
+			// aapt resource value: 0x7F07012B
+			public const int while_basic = 2131165483;
 			
 			static Drawable()
 			{

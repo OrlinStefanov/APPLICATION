@@ -4,33 +4,73 @@
              x:Class="Code_Legend.UserInterface"
              Title="User Interface">
 
+    <ContentPage.Background>
+
+        <LinearGradientBrush EndPoint="0,1">
+            <GradientStop Color="#512bd4"
+                          Offset="0.3" />
+            <GradientStop Color="#202ef6"
+                          Offset="0.65" />
+            <GradientStop Color="#512bd4"
+                          Offset="1.0" />
+        </LinearGradientBrush>
+
+    </ContentPage.Background>
+
     <ScrollView>
+
         <VerticalStackLayout>
 
+            <!-- .NET MAUI Selections -->
+
             <Grid WidthRequest="500" HeightRequest="1000">
-                <Image Source="background_img.jpg"
-                   Aspect="AspectFill" />
 
-                <!-- User Interface Selections -->
-                <Grid BackgroundColor="Transparent" WidthRequest="390" HeightRequest="650" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,0,0,200">
+                <Label Text="UserInterface" HorizontalOptions="Center" Margin="0,50,0,0" TextColor="White" FontSize="22"/>
 
-                    <Button x:Name="FistStepsBtn" Clicked="FistStepsBtn_Clicked" BackgroundColor="Transparent" BorderColor="#fff" BorderWidth="1" Text="First steps" TextColor="#fff" CornerRadius="0" FontSize="Medium" ImageSource="firststeps_img.png" WidthRequest="300" HeightRequest="50" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,0,0,250"/>
+                <Grid x:Name="SelectionsGrid" WidthRequest="390" HeightRequest="550" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,250,0,0">
+                    <!--First Steps-->
+                    <Button BackgroundColor="#fff" BorderColor="#fff" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="Start" VerticalOptions="Start" Margin="10,0,0,0"/>
+                    <Label Text="First Steps" TextColor="#202ef6" FontSize="17" HorizontalOptions="Start" Margin="55,10,0,0"/>
+                    <ProgressBar WidthRequest="150" ProgressColor="Lime" HorizontalOptions="Start" VerticalOptions="Start" Margin="20,40,0,0"/>
+                    <ImageButton WidthRequest="100" HeightRequest="100" Source="firststeps_img.png" HorizontalOptions="Start" VerticalOptions="Start" Margin="40,60,0,0"/>
+                    <Button x:Name="FistStepsBtn" Clicked="FistStepsBtn_Clicked" BackgroundColor="Transparent" BorderColor="Transparent" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="Start" VerticalOptions="Start" Margin="10,0,0,0"/>
 
-                    <ImageButton Source="tick.png" BackgroundColor="Transparent" VerticalOptions="Center" HorizontalOptions="Start" Margin="60,0,0,250"/>
+                    <!--Layouts-->
+                    <Button BackgroundColor="#fff" BorderColor="#fff" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="End" VerticalOptions="Start" Margin="0,0,10,0"/>
+                    <Label Text="Layouts" TextColor="#202ef6" FontSize="17" HorizontalOptions="End" Margin="0,10,65,0"/>
+                    <ProgressBar WidthRequest="150" ProgressColor="Lime" HorizontalOptions="End" VerticalOptions="Start" Margin="0,40,20,0"/>
+                    <ImageButton WidthRequest="100" HeightRequest="100" Source="layouts_img.png" HorizontalOptions="End" VerticalOptions="Start" Margin="0,60,45,0"/>
+                    <Button x:Name="LayoutsBtn" Clicked="LayoutsBtn_Clicked" BackgroundColor="Transparent" BorderColor="Transparent" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="End" VerticalOptions="Start" Margin="0,0,10,0"/>
 
-                    <Button x:Name="LayoutsBtn" Clicked="LayoutsBtn_Clicked" BackgroundColor="Transparent" BorderColor="#fff" BorderWidth="1" Text="Layouts" TextColor="#fff" FontSize="Medium" CornerRadius="0" WidthRequest="300" HeightRequest="50" ImageSource="layouts_img.png" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,0,0,100"/>
+                    <!--Pages-->
+                    <Button BackgroundColor="#fff" BorderColor="#fff" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="Start" VerticalOptions="Center" Margin="10,0,0,0"/>
+                    <Label Text="Pages" TextColor="#512bd4" FontSize="17" HorizontalOptions="Start" VerticalOptions="Center" Margin="70,0,0,130"/>
+                    <ProgressBar WidthRequest="150" ProgressColor="Lime" HorizontalOptions="Start" VerticalOptions="Center" Margin="20,0,0,100"/>
+                    <ImageButton WidthRequest="100" HeightRequest="100" Source="page_img.png" HorizontalOptions="Start" VerticalOptions="Center" Margin="40,40,0,0"/>
+                    <Button x:Name="PagesBtn" Clicked="PagesBtn_Clicked" BackgroundColor="Transparent" BorderColor="Transparent" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="Start" VerticalOptions="Center" Margin="10,0,0,0"/>
 
-                    <Button x:Name="PagesBtn" Clicked="PagesBtn_Clicked" BackgroundColor="Transparent" BorderColor="#fff" BorderWidth="1" Text="Pages" TextColor="#fff" FontSize="Medium" CornerRadius="0" WidthRequest="300" HeightRequest="50" ImageSource="page_img.png" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,50,0,0"/>
+                    <!--Views Part 1-->
+                    <Button BackgroundColor="#fff" BorderColor="#fff" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="End" VerticalOptions="Center" Margin="0,0,10,0"/>
+                    <Label Text="Views Part 1" TextColor="#512bd4" FontSize="17" HorizontalOptions="End" VerticalOptions="Center" Margin="0,0,40,130"/>
+                    <ProgressBar WidthRequest="150" ProgressColor="Lime" HorizontalOptions="End" VerticalOptions="Center" Margin="0,0,20,100"/>
+                    <ImageButton WidthRequest="100" HeightRequest="100" Source="views_img.png" HorizontalOptions="End" VerticalOptions="Center" Margin="0,40,45,0"/>
+                    <Button x:Name="ViewsPart1Btn" Clicked="ViewsPart1Btn_Clicked" BackgroundColor="Transparent" BorderColor="Transparent" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="End" VerticalOptions="Center" Margin="0,0,10,0"/>
 
-                    <Button x:Name="ViewsPart1Btn" Clicked="ViewsPart1Btn_Clicked" BackgroundColor="Transparent" BorderColor="#fff" BorderWidth="1" Text="Views Part 1" TextColor="#fff" FontSize="Medium" CornerRadius="0" WidthRequest="300" HeightRequest="50" ImageSource="views_img.png" VerticalOptions="End" HorizontalOptions="Center" Margin="0,0,0,200"/>
+                    <!--Views Part 2-->
+                    <Button BackgroundColor="#fff" BorderColor="#fff" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="Center" VerticalOptions="End"/>
+                    <Label Text="Views Part 2" TextColor="#202ef6" FontSize="17" HorizontalOptions="Center" VerticalOptions="End" Margin="0,0,0,140"/>
+                    <ProgressBar WidthRequest="150" ProgressColor="Lime" HorizontalOptions="Center" VerticalOptions="End" Margin="0,0,0,115"/>
+                    <ImageButton WidthRequest="100" HeightRequest="100" Source="views_img.png" HorizontalOptions="Center" VerticalOptions="End" Margin="0,0,0,20"/>
+                    <Button x:Name="ViewsPart2Btn" Clicked="ViewsPart2Btn_Clicked" BackgroundColor="Transparent" BorderColor="Transparent" CornerRadius="10" WidthRequest="170" HeightRequest="170"  HorizontalOptions="Center" VerticalOptions="End"/>
 
-                    <Button x:Name="ViewsPart2Btn" Clicked="ViewsPart2Btn_Clicked" BackgroundColor="Transparent" BorderColor="#fff" BorderWidth="1" Text="Views Part 2" TextColor="#fff" FontSize="Medium" CornerRadius="0" WidthRequest="300" HeightRequest="50" ImageSource="views_img.png" VerticalOptions="End" HorizontalOptions="Center" Margin="0,0,0,120"/>
 
                 </Grid>
+
             </Grid>
 
 
         </VerticalStackLayout>
+
     </ScrollView>
-    
+
 </ContentPage>

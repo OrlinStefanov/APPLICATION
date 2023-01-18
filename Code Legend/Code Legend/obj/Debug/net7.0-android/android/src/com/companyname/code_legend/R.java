@@ -10974,11 +10974,12 @@ public final class R {
     public static final int try_basic=0x7f070123;
     public static final int ui_img=0x7f070124;
     public static final int user=0x7f070125;
-    public static final int variables_basic=0x7f070126;
-    public static final int version_img=0x7f070127;
-    public static final int verticallayout=0x7f070128;
-    public static final int views_img=0x7f070129;
-    public static final int while_basic=0x7f07012a;
+    public static final int variables=0x7f070126;
+    public static final int variables_basic=0x7f070127;
+    public static final int version_img=0x7f070128;
+    public static final int verticallayout=0x7f070129;
+    public static final int views_img=0x7f07012a;
+    public static final int while_basic=0x7f07012b;
   }
   public static final class id {
     public static final int ALT=0x7f080000;

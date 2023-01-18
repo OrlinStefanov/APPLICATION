@@ -16,4 +16,9 @@ public partial class Fundaments : ContentPage
     {
         await Navigation.PushAsync(new DataBinding_Fundamentals());
     }
+
+    private void FistStepsBtn_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

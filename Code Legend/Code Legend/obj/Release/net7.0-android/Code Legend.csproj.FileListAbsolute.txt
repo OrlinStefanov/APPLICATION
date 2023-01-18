@@ -998,3 +998,4 @@ D:\Orlin programs\Maui C#\AppO-main\AppO-main\Code Legend\Code Legend\obj\Releas
 D:\Orlin programs\Maui C#\AppO-main\AppO-main\Code Legend\Code Legend\obj\Release\net7.0-android\android\src\plugin\LocalNotification\GeofenceTransitionsIntentReceiver.java
 D:\Orlin programs\Maui C#\AppO-main\AppO-main\Code Legend\Code Legend\obj\Release\net7.0-android\android\src\plugin\LocalNotification\NotificationActionReceiver.java
 D:\Orlin programs\Maui C#\AppO-main\AppO-main\Code Legend\Code Legend\obj\Release\net7.0-android\android\src\plugin\LocalNotification\ScheduledAlarmReceiver.java
+D:\Orlin programs\Maui C#\AppO-main\AppO-main\Code Legend\Code Legend\obj\Release\net7.0-android\resizetizer\r\drawable\variables_basic.png

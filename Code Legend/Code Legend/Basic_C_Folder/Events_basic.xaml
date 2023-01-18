@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Code_Legend.Events_basic"
-             Title="Events_basic"
+             Title="Events in C#"
              Style="{StaticResource page}">
 
     <ContentPage.Resources>

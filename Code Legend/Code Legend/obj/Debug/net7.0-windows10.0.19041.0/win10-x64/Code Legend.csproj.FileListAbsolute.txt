@@ -1129,3 +1129,15 @@ D:\AppK-main\Code Legend\Code Legend\obj\Debug\net7.0-windows10.0.19041.0\win10-
 D:\AppK-main\Code Legend\Code Legend\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\methods_img.scale-100.png
 D:\AppK-main\Code Legend\Code Legend\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fundaments_img.scale-100.png
 D:\AppK-main\Code Legend\Code Legend\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\ui_img.scale-100.png
+D:\Orlin programs\Maui C#\AppO-main\AppO-main\Code Legend\Code Legend\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Code Legend.csproj.AssemblyReference.cache
+D:\Orlin programs\Maui C#\AppO-main\AppO-main\Code Legend\Code Legend\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
+D:\Orlin programs\Maui C#\AppO-main\AppO-main\Code Legend\Code Legend\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauifont.inputs
+D:\Orlin programs\Maui C#\AppO-main\AppO-main\Code Legend\Code Legend\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauisplash.inputs
+D:\Orlin programs\Maui C#\AppO-main\AppO-main\Code Legend\Code Legend\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauimanifest.stamp
+D:\Orlin programs\Maui C#\AppO-main\AppO-main\Code Legend\Code Legend\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.i.cs
+D:\Orlin programs\Maui C#\AppO-main\AppO-main\Code Legend\Code Legend\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.cs
+D:\Orlin programs\Maui C#\AppO-main\AppO-main\Code Legend\Code Legend\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
+D:\Orlin programs\Maui C#\AppO-main\AppO-main\Code Legend\Code Legend\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+D:\Orlin programs\Maui C#\AppO-main\AppO-main\Code Legend\Code Legend\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
+D:\Orlin programs\Maui C#\AppO-main\AppO-main\Code Legend\Code Legend\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
+D:\Orlin programs\Maui C#\AppO-main\AppO-main\Code Legend\Code Legend\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Code Legend.GeneratedMSBuildEditorConfig.editorconfig

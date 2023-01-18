@@ -2799,11 +2799,12 @@ int drawable tooltip_frame_light 0x7f070122
 int drawable try_basic 0x7f070123
 int drawable ui_img 0x7f070124
 int drawable user 0x7f070125
-int drawable variables_basic 0x7f070126
-int drawable version_img 0x7f070127
-int drawable verticallayout 0x7f070128
-int drawable views_img 0x7f070129
-int drawable while_basic 0x7f07012a
+int drawable variables 0x7f070126
+int drawable variables_basic 0x7f070127
+int drawable version_img 0x7f070128
+int drawable verticallayout 0x7f070129
+int drawable views_img 0x7f07012a
+int drawable while_basic 0x7f07012b
 int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
